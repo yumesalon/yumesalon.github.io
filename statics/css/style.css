@@ -1,0 +1,147 @@
+/*
+Theme Name: Frisieur WordPress Theme
+Theme URI: http://demo.martanian.com/wordpress/frisieur/
+Author: Martanian Design
+Author URI: http://martanian.com/
+Description: WordPress theme for Hairdressers, Hair Salons, stylists and similar - from Martanian Design!
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: left-sidebar, right-sidebar, full-width-template, theme-options, translation-ready
+*/
+
+@import url( 'main-content.css' );
+@import url( 'header.css' );
+@import url( 'slogan.css' );
+@import url( 'html.css' );
+@import url( 'buttons.css' );
+@import url( 'go-top.css' );
+@import url( 'small-appointment.css' );
+@import url( 'presentation-v1.css' );
+@import url( 'presentation-v2.css' );
+@import url( 'special-content.css' );
+@import url( 'about-us.css' );
+@import url( 'opening-hours.css' );
+@import url( 'contact-form.css' );
+@import url( 'twitter.css' );
+@import url( 'footer.css' );
+@import url( 'appointment-popup.css' );
+@import url( 'gallery-popup.css' );
+@import url( 'gallery.css' );
+@import url( 'blog.css' );
+@import url( 'custom.css' );
+@import url( 'not-found.css' );
+@import url( 'page.css' );
+@import url( 'address.css' );
+
+/*------------------------------------------------------------------------------ main css things */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+body {
+    background: #eee;
+    color: #3b3b3b;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
+
+a, img {
+    border: none;
+}
+
+/*------------------------------------------------------------------------------ wordpress core css */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.custom-html-white img,
+.custom-html-gray img {
+    width: 100%;
+}
